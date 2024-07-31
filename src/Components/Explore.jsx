@@ -29,7 +29,7 @@ const ExploreData = [
 const Explore = () => {
  
   return (
-    <div className=" mt-[80px] mb-[56px]">
+    <div className=" md:mt-[80px] md:mb-[56px]">
       <div className="max-w-container mx-auto">
         <div className="bg-[#FBFEFF] py-[62px] shadow-sm">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-[102px] gap-16 mt-64 lg:mt-0 sm:mt-0 md:mt-0 place-items-center lg:place-items-start">
