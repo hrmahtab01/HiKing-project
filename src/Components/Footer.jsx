@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="md:flex md:justify-center md:gap-5 md:mt-[76px] md:flex-row mt-6 flex flex-col justify-center items-center gap-3 md:mb-[98px]">
             <div className="relative">
               <input
-                className="py-[16px] pl-[66px] md:pr-[174px] pr-[60px] rounded-[50px] text-base font-poppins font-normal text-ThidrColor placeholder:text-ThidrColor border-[1px] border-ThidrColor outline-ThidrColor relative"
+                className="py-[16px] pl-[66px] md:pr-[174px] pr-[40px] rounded-[50px] text-base font-poppins font-normal text-ThidrColor placeholder:text-ThidrColor border-[1px] border-ThidrColor outline-ThidrColor relative"
                 type="text"
                 placeholder={`Enter your e-mail address`}
               />
