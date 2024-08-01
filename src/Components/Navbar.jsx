@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="lg:hidden  md:hidden sm:hidden">
               <FiMenu onClick={handlemenubar} className="text-3xl " />
               {menubar && (
-                <div className="w-[300px] h-[300px] bg-ThidrColor absolute right-1 top-20 rounded-md ">
+                <div className="w-[300px] h-[300px] bg-[#ECF3FF] absolute right-1 top-20 rounded-md ">
                   <ul className="flex flex-col gap-4 justify-center items-center mt-4 ">
                     {NavData.map((data) => (
                       <li className="text-Primary text-lg font-medium font-poppins uppercase">{data.title}</li>

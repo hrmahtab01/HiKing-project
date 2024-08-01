@@ -6,6 +6,8 @@ import Journy from "./Components/Journy";
 import Companies from "./Components/Companies";
 import SectionTwo from "./Components/SectionTwo";
 import SectionThree from "./Components/SectionThree";
+import About from "./Components/About";
+import Footer from "./Components/Footer";
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
       <Companies/>
       <SectionTwo/>
       <SectionThree/>
+      <About/>
+      <Footer/>
     </div>
   );
 };
